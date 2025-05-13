@@ -1,0 +1,12 @@
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\bin\Debug\net9.0\aton-intern.ServiceDefaults.deps.json
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\bin\Debug\net9.0\aton-intern.ServiceDefaults.dll
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\bin\Debug\net9.0\aton-intern.ServiceDefaults.pdb
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.csproj.AssemblyReference.cache
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.AssemblyInfoInputs.cache
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.AssemblyInfo.cs
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.csproj.CoreCompileInputs.cache
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.dll
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\refint\aton-intern.ServiceDefaults.dll
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\aton-intern.ServiceDefaults.pdb
+C:\Users\arowo\source\repos\aton-intern\aton-intern.ServiceDefaults\obj\Debug\net9.0\ref\aton-intern.ServiceDefaults.dll
