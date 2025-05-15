@@ -1,10 +1,11 @@
-using aton_intern.Models;
+using aton_intern.Configuration;
 using Aton_intern.Services.Auth;
 using Aton_intern.Services.Initialization;
 using Aton_intern.Services.UserService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.OpenApi;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Any;
 using Microsoft.OpenApi.Models;
 using Scalar.AspNetCore;
 using System.Text;
@@ -24,6 +25,33 @@ builder.Services.AddOpenApi("v1", options => { options.AddDocumentTransformer<Be
 
 //adding swaggerUI to the application
 builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(opt => {
+    opt.SwaggerDoc("v1", new OpenApiInfo { Title= "Swagger UI",  Version = "v1" });
+    //opt.EnableAnnotations();
+    opt.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
+    {
+        In = ParameterLocation.Header,
+        Description = "Input valid token",
+        Name = "Authorization",
+        Type = SecuritySchemeType.Http,
+        BearerFormat = "JWT",
+        Scheme = "Bearer"
+    });
+    opt.AddSecurityRequirement(new OpenApiSecurityRequirement
+                 {
+                     {
+                         new OpenApiSecurityScheme
+                         {
+                             Reference = new OpenApiReference
+                             {
+                                 Type = ReferenceType.SecurityScheme,
+                                 Id ="Bearer"
+                             }
+                         },
+                         new string[]{}
+                     }
+                 });
+});
 
 //builder.Services.AddScoped<ITokenService, TokenService>(); 
 builder.Services.AddSingleton<IUserService, UserService>();

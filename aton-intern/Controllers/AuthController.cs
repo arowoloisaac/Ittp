@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace aton_intern.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     public class AuthController : ControllerBase
     {

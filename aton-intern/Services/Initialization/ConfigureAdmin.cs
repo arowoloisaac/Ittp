@@ -13,37 +13,24 @@ namespace Aton_intern.Services.Initialization
 
             var userConfig = serviceScope.ServiceProvider.GetService<IUserService>();
 
+            if (userConfig == null)
+            {
+                throw new Exception("Unable to get service");
+            }
+
             var getAdminCredientials = app.Configuration.GetSection("InitialAdminCredientials") == null 
                 ? throw new Exception("Configuration does not exist")
                 : app.Configuration.GetSection("InitialAdminCredientials");
 
-            //var checkAdminExistence = userConfig.IsUserExists(getAdminCredientials["Username"]);
-
             userConfig.CreateUser(new CreateUserDto
             {
                 Username = getAdminCredientials["Username"],
-                //CreatedBy = getAdminCredientials["CreatedBy"],
                 Password = getAdminCredientials["Password"],
                 Gender = Gender.Unknown,
                 IsAdmin = true,
                 Name = getAdminCredientials["Name"],
                 BirthDate = DateTime.UtcNow.AddYears(-20)
-            });
-
-            /*if (!checkAdminExistence)
-            {
-                 userConfig.CreateUser(new User
-                {
-                    Id = Guid.NewGuid(),
-                    Username = getAdminCredientials["Username"],
-                    CreatedBy = getAdminCredientials["CreatedBy"],
-                    Password = getAdminCredientials["Password"],
-                    Gender = Gender.Male,
-                    IsAdmin = true,
-                    Name = getAdminCredientials["Name"],
-                    CreatedOn = DateTime.UtcNow,
-                });
-            }*/
+            }, createdBy: "system");
         }
     }
 }

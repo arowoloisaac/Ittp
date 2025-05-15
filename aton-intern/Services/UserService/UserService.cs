@@ -2,6 +2,7 @@
 using aton_intern.DTOs;
 using Aton_intern.Models;
 using Microsoft.AspNetCore.Mvc;
+using System.Net;
 
 namespace Aton_intern.Services.UserService
 {
@@ -11,8 +12,13 @@ namespace Aton_intern.Services.UserService
 
         private readonly object _lock = new object();
 
+        public UserService()
+        {
+            
+        }
+
         //create/add a user to the list
-        public string CreateUser(CreateUserDto user)
+        public string CreateUser(CreateUserDto user, string createdBy)
         {
             lock (_lock)
             {
@@ -30,7 +36,7 @@ namespace Aton_intern.Services.UserService
                     Name = user.Name,
                     Password = user.Password,
                     Gender = user.Gender,
-                    CreatedBy = "",
+                    CreatedBy = createdBy,
                     CreatedOn = DateTime.UtcNow,
                     BirthDate = user.BirthDate,
                     IsAdmin = user.IsAdmin,
@@ -47,7 +53,15 @@ namespace Aton_intern.Services.UserService
         {
             lock (_lock)
             {
-                return _users.Select(u => new UserListDto { UserName = u.Username }).ToList();
+                return _users
+                    .Select(u => new UserListDto { 
+                        UserName = u.Username, 
+                        Name = u.Name,
+                        Gender = u.Gender,
+                        Birthday = u.BirthDate,
+                        IsActive = u.IsActive 
+                    })
+                    .ToList();
             }
         }
 
@@ -60,6 +74,7 @@ namespace Aton_intern.Services.UserService
             return findUser;
         }
 
+
         // soft removal of user
         public string SoftDelete(string username)
         {
@@ -70,6 +85,7 @@ namespace Aton_intern.Services.UserService
 
             throw new NotImplementedException();
         }
+
 
         //total removal of user
         public string HardDelete(string username)
@@ -93,38 +109,63 @@ namespace Aton_intern.Services.UserService
             return user;
         }
 
+
         //update user
-        public string UpdateUser(UpdateCredentials credentials, string username)
+        public string UpdateUser(UpdateCredentialsDto credentials, string username, string modifiedBy)
         {
             var user = GetUserByUsername(username);
-            if (!string.IsNullOrWhiteSpace(credentials.Username))
-            {
-                if (IsUserExists(credentials.Username)) user.Username = credentials.Username;
-            }
 
-            if (!string.IsNullOrWhiteSpace(credentials.Password)) user.Password = credentials.Password;
 
             if(!string.IsNullOrWhiteSpace(credentials.Name)) user.Name = credentials.Name;
 
+            if(credentials.Gender.HasValue) user.Gender = credentials.Gender.Value;
+
+            if (credentials.BirthDate != null) user.BirthDate = (DateTime)credentials.BirthDate;
+
             user.ModifiedOn = DateTime.UtcNow;
-            user.ModifiedBy = "user";
-            throw new NotImplementedException();
+            user.ModifiedBy = modifiedBy;
+
+            return "Credientials updated";
         }
 
-        public string ChangePassword(string username, [FromBody] string password)
+
+        // change password method
+        public string ChangePassword(string username, [FromBody] string newPassword, string modifiedBy)
         {
-            throw new NotImplementedException();
+            var getUser = GetUserByUsername(username);
+
+            getUser.Password = newPassword;
+            getUser.ModifiedOn = DateTime.UtcNow;
+            getUser.ModifiedBy = modifiedBy;
+
+            return "password changed";
         }
+
 
         //get all active user
         public IEnumerable<UserListDto> GetAllActiveUsers()
         {
-            return _users.Where(ua => ua.IsActive).Select(u => new UserListDto { UserName = u.Username}).ToList();
+            return _users.Where(ua => ua.IsActive)
+                .OrderBy(c => c.CreatedOn)
+                .Select(u => new UserListDto { 
+                    UserName = u.Username,
+                    Name = u.Name,
+                    Gender = u.Gender,
+                    Birthday = u.BirthDate
+                })
+                .ToList();
         }
 
-        public IEnumerable<UserListDto> GetUserOfCertainAge()
+
+        //user over a certain age range which return age and above
+        public IEnumerable<UserListDto> GetUsersOfCertainAge(int ageRange)
         {
-            throw new NotImplementedException();
+            var getUsersAge = _users
+               .Where(ua => ua.BirthDate.Year >= DateTime.UtcNow.AddYears(-ageRange).Year)
+               .Select(u => new UserListDto { UserName = u.Username })
+               .ToList();
+
+            return getUsersAge;
         }
 
         //account recovery
@@ -140,6 +181,36 @@ namespace Aton_intern.Services.UserService
            userToRetrieve.RevokedOn = null; userToRetrieve.RevokedBy = null;
 
             return "User has been recovery";
+        }
+
+        //update username
+        public string ChangeUsername(string username, string newUsername, string modifiedBy)
+        {
+            var user = GetUserByUsername(username);
+            if (!string.IsNullOrWhiteSpace(newUsername))
+            {
+                var query = (!IsUserExists(newUsername))
+                    ? user.Username = newUsername
+                    : throw new Exception("User exists in the system");
+            }
+
+            user.ModifiedOn = DateTime.UtcNow;
+            user.ModifiedBy = modifiedBy;
+
+            return "username updated";
+        }
+
+        //retrieving user credientials
+        public Credientials GetCreentials(string username)
+        {
+            var user = GetUserByUsername(username);
+
+            if (user == null || user.Username != username)
+            {
+                throw new Exception("Invalid user: validate your credientials");
+            }
+
+            return new Credientials { Username = user.Username, Password = user.Password };
         }
     }
 }

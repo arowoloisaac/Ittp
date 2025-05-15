@@ -3,76 +3,92 @@
   "WorkspaceRootPath": "C:\\Users\\arowo\\source\\repos\\aton-intern\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|solutionrelative:aton-intern.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\logincredientials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\logincredientials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\models\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\models\\unknown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\models\\unknown.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern.apphost\\aton-intern.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|solutionrelative:aton-intern.apphost\\aton-intern.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\initialization\\configureadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\initialization\\configureadmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\auth\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\auth\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\auth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\auth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\updatecredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\updatecredentials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\userservice\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\userlistdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\userservice\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\updatecredentialsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\updatecredentialsdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\createuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\logincredientials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\logincredientials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\models\\indicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\models\\indicator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\dtos\\credientials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\dtos\\credientials.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\aton-intern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\aton-intern.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\auth\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\auth\\tokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|C:\\Users\\arowo\\source\\repos\\aton-intern\\.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}",
+      "RelativeMoniker": "D:0:0:{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|Solution Items{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}|solutionrelative:.editorconfig||{68B46364-D378-42F2-9E72-37D86C5F4468}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA84B721-82B8-B019-F876-4B4BF872ED30}|aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EA84B721-82B8-B019-F876-4B4BF872ED30}|aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj|solutionrelative:aton-intern.servicedefaults\\extensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EA84B721-82B8-B019-F876-4B4BF872ED30}|aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern.servicedefaults\\aton-intern.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{EA84B721-82B8-B019-F876-4B4BF872ED30}|aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj|solutionrelative:aton-intern.servicedefaults\\aton-intern.servicedefaults.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern.apphost\\aton-intern.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|solutionrelative:aton-intern.apphost\\aton-intern.apphost.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A1147BBA-C31B-4A60-8F70-5C2109724908}|aton-intern.AppHost\\aton-intern.AppHost.csproj|solutionrelative:aton-intern.apphost\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|c:\\users\\arowo\\source\\repos\\aton-intern\\aton-intern\\services\\auth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4871954A-B444-41BA-EB06-572D1B1308ED}|aton-intern\\aton-intern.csproj|solutionrelative:aton-intern\\services\\auth\\itokenservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +98,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 224,
-          "SelectedChildIndex": 14,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -122,46 +138,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ITokenService.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\ITokenService.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Services\\Auth\\ITokenService.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\ITokenService.cs",
-              "RelativeToolTip": "aton-intern\\Services\\Auth\\ITokenService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "DocumentIndex": 8,
+              "Title": "UpdateCredentialsDto.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UpdateCredentialsDto.cs",
+              "RelativeDocumentMoniker": "aton-intern\\DTOs\\UpdateCredentialsDto.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UpdateCredentialsDto.cs",
+              "RelativeToolTip": "aton-intern\\DTOs\\UpdateCredentialsDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:46:30.004Z",
+              "WhenOpened": "2025-05-13T14:21:29.688Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Indicator.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\Indicator.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Models\\Indicator.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\Indicator.cs",
-              "RelativeToolTip": "aton-intern\\Models\\Indicator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAyAAAAAAAAAA==",
+              "DocumentIndex": 6,
+              "Title": "UserListDto.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UserListDto.cs",
+              "RelativeDocumentMoniker": "aton-intern\\DTOs\\UserListDto.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UserListDto.cs",
+              "RelativeToolTip": "aton-intern\\DTOs\\UserListDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:08:39.65Z",
+              "WhenOpened": "2025-05-13T13:13:35.001Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Controllers\\UserController.cs",
-              "RelativeToolTip": "aton-intern\\Controllers\\UserController.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAA4wDQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:23:03.229Z",
+              "DocumentIndex": 14,
+              "Title": "aton-intern",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\aton-intern.csproj",
+              "RelativeDocumentMoniker": "aton-intern\\aton-intern.csproj",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\aton-intern.csproj",
+              "RelativeToolTip": "aton-intern\\aton-intern.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T09:18:55.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\User.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Models\\User.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\User.cs",
+              "RelativeToolTip": "aton-intern\\Models\\User.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwBYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:08:43.702Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "LoginCredientials.cs",
               "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\LoginCredientials.cs",
               "RelativeDocumentMoniker": "aton-intern\\DTOs\\LoginCredientials.cs",
@@ -174,150 +203,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\Program.cs",
-              "RelativeDocumentMoniker": "aton-intern.AppHost\\Program.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\Program.cs",
-              "RelativeToolTip": "aton-intern.AppHost\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:15:39.273Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Program.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Program.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Program.cs",
-              "RelativeToolTip": "aton-intern\\Program.cs",
-              "ViewState": "AgIAAF0AAAAAAAAAAAAAAFwAAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:10:20.177Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "UserListDto.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UserListDto.cs",
-              "RelativeDocumentMoniker": "aton-intern\\DTOs\\UserListDto.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UserListDto.cs",
-              "RelativeToolTip": "aton-intern\\DTOs\\UserListDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA9AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T13:13:35.001Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "User.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\User.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Models\\User.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\User.cs",
-              "RelativeToolTip": "aton-intern\\Models\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:08:43.702Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\UserService.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Services\\UserService\\UserService.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\UserService.cs",
-              "RelativeToolTip": "aton-intern\\Services\\UserService\\UserService.cs",
-              "ViewState": "AgIAAD8AAAAAAAAAAIAzwHsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:16:36.87Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "TokenService.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\TokenService.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Services\\Auth\\TokenService.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\TokenService.cs",
-              "RelativeToolTip": "aton-intern\\Services\\Auth\\TokenService.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAQwAkAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:46:30.669Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\IUserService.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Services\\UserService\\IUserService.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\IUserService.cs",
-              "RelativeToolTip": "aton-intern\\Services\\UserService\\IUserService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAIBJwAoAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:23:50.993Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ConfigureAdmin.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
-              "RelativeToolTip": "aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAnwB0AAAA4AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T11:23:55.655Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "CreateUserDto.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\CreateUserDto.cs",
-              "RelativeDocumentMoniker": "aton-intern\\DTOs\\CreateUserDto.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\CreateUserDto.cs",
-              "RelativeToolTip": "aton-intern\\DTOs\\CreateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T05:45:01.257Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "unknown.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\unknown.cs",
-              "RelativeDocumentMoniker": "aton-intern\\Models\\unknown.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\unknown.cs",
-              "RelativeToolTip": "aton-intern\\Models\\unknown.cs",
-              "ViewState": "AgIAAAQAAAAAAAAAAADwvyIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-14T06:19:06.832Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "aton-intern.AppHost.csproj",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\aton-intern.AppHost.csproj",
-              "RelativeDocumentMoniker": "aton-intern.AppHost\\aton-intern.AppHost.csproj",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\aton-intern.AppHost.csproj",
-              "RelativeToolTip": "aton-intern.AppHost\\aton-intern.AppHost.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-14T06:19:19.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\appsettings.json",
               "RelativeDocumentMoniker": "aton-intern\\appsettings.json",
@@ -330,28 +216,209 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 3,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "aton-intern\\Controllers\\AuthController.cs",
               "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Controllers\\AuthController.cs",
               "RelativeToolTip": "aton-intern\\Controllers\\AuthController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-14T04:23:07.151Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "UpdateCredentials.cs",
-              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UpdateCredentials.cs",
-              "RelativeDocumentMoniker": "aton-intern\\DTOs\\UpdateCredentials.cs",
-              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\UpdateCredentials.cs",
-              "RelativeToolTip": "aton-intern\\DTOs\\UpdateCredentials.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Program.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Program.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Program.cs",
+              "RelativeToolTip": "aton-intern\\Program.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBwAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-13T14:21:29.688Z",
+              "WhenOpened": "2025-05-13T11:10:20.177Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Controllers\\UserController.cs",
+              "RelativeToolTip": "aton-intern\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAKgAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T13:23:03.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\IUserService.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Services\\UserService\\IUserService.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\IUserService.cs",
+              "RelativeToolTip": "aton-intern\\Services\\UserService\\IUserService.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:23:50.993Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\UserService.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Services\\UserService\\UserService.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\UserService\\UserService.cs",
+              "RelativeToolTip": "aton-intern\\Services\\UserService\\UserService.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAAACYAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:16:36.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ConfigureAdmin.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
+              "RelativeToolTip": "aton-intern\\Services\\Initialization\\ConfigureAdmin.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:23:55.655Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "CreateUserDto.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\CreateUserDto.cs",
+              "RelativeDocumentMoniker": "aton-intern\\DTOs\\CreateUserDto.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\CreateUserDto.cs",
+              "RelativeToolTip": "aton-intern\\DTOs\\CreateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-14T05:45:01.257Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Indicator.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\Indicator.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Models\\Indicator.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Models\\Indicator.cs",
+              "RelativeToolTip": "aton-intern\\Models\\Indicator.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA5wBAAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:08:39.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Credientials.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\Credientials.cs",
+              "RelativeDocumentMoniker": "aton-intern\\DTOs\\Credientials.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\DTOs\\Credientials.cs",
+              "RelativeToolTip": "aton-intern\\DTOs\\Credientials.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:39:48.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "TokenService.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\TokenService.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Services\\Auth\\TokenService.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\TokenService.cs",
+              "RelativeToolTip": "aton-intern\\Services\\Auth\\TokenService.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwBkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:46:30.669Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": ".editorconfig",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\.editorconfig",
+              "RelativeDocumentMoniker": ".editorconfig",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\.editorconfig",
+              "RelativeToolTip": ".editorconfig",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-15T08:08:32.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Extensions.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.ServiceDefaults\\Extensions.cs",
+              "RelativeDocumentMoniker": "aton-intern.ServiceDefaults\\Extensions.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.ServiceDefaults\\Extensions.cs",
+              "RelativeToolTip": "aton-intern.ServiceDefaults\\Extensions.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T08:07:40.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "aton-intern.ServiceDefaults",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj",
+              "RelativeDocumentMoniker": "aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj",
+              "RelativeToolTip": "aton-intern.ServiceDefaults\\aton-intern.ServiceDefaults.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-15T08:07:32.01Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\Program.cs",
+              "RelativeDocumentMoniker": "aton-intern.AppHost\\Program.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\Program.cs",
+              "RelativeToolTip": "aton-intern.AppHost\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:15:39.273Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "aton-intern.AppHost.csproj",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\aton-intern.AppHost.csproj",
+              "RelativeDocumentMoniker": "aton-intern.AppHost\\aton-intern.AppHost.csproj",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern.AppHost\\aton-intern.AppHost.csproj",
+              "RelativeToolTip": "aton-intern.AppHost\\aton-intern.AppHost.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-14T06:19:19.486Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ITokenService.cs",
+              "DocumentMoniker": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\ITokenService.cs",
+              "RelativeDocumentMoniker": "aton-intern\\Services\\Auth\\ITokenService.cs",
+              "ToolTip": "C:\\Users\\arowo\\source\\repos\\aton-intern\\aton-intern\\Services\\Auth\\ITokenService.cs",
+              "RelativeToolTip": "aton-intern\\Services\\Auth\\ITokenService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T11:46:30.004Z",
               "EditorCaption": ""
             }
           ]

@@ -2,10 +2,11 @@
 using Aton_intern.Services.UserService;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace Aton_intern.Controllers
 {
-    [Route("api/[controller]")]
+    [Route("api/")]
     [ApiController]
     [Authorize]
     public class UserController : ControllerBase
@@ -19,16 +20,24 @@ namespace Aton_intern.Controllers
 
 
         [HttpPost]
+        [Authorize(Policy = "IsAdmin")]
         [Route("user/create")]
-        [Authorize(Policy ="IsAdmin")]
         public IActionResult CreateUser(CreateUserDto dto)
         {
-            return Ok(service.CreateUser(dto));
+            var claimedUser = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Name);
+
+            if (claimedUser == null)
+            {
+                return Unauthorized();
+            }
+            return Ok(service.CreateUser(dto, claimedUser.Value));
         }
 
         
         [HttpGet]
-        public IActionResult Get()
+        [Authorize(Policy = "IsAdmin")]
+        [Route("users")]
+        public IActionResult GetUsers()
         {
             return Ok(service.GetAllUsers());   
         }
@@ -60,26 +69,116 @@ namespace Aton_intern.Controllers
             return Ok(service.HardDelete(username));
         }
 
-        // GET api/<UserController>/5
-        [HttpGet("{id}")]
-        public string Get(int id)
+
+        [HttpPut]
+        [Route("user/update-user")]
+        public IActionResult UpdateUser(UpdateCredentialsDto dto, string userToUpdate) 
         {
-            return "value";
+            var user = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Name);
+
+            var getUser = user != null ? service.GetUserByUsername(user.Value): throw new Exception("Invalid credientials");
+
+            if (getUser.IsAdmin && getUser.IsActive)
+            {
+                return Ok(service.UpdateUser(dto, userToUpdate, getUser.Username));
+            }
+            else
+            {
+                if (user.Value == getUser.Username && getUser.IsActive)
+                {
+                    return Ok(service.UpdateUser(dto, userToUpdate, getUser.Username));
+                }
+                return BadRequest("Unable to perform request");
+            }
         }
 
-        // POST api/<UserController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+
+        [HttpPut]
+        [Route("user/change-username")]
+        public IActionResult ChangeUsername(string username, string newUsername)
         {
+            if (string.IsNullOrWhiteSpace(newUsername))
+            {
+                throw new InvalidOperationException("Username does not have value");
+            }
+
+            var user = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Name);
+
+            var getUser = user != null ? service.GetUserByUsername(user.Value) : throw new Exception("Invalid credientials");
+
+            if (getUser.IsAdmin && getUser.IsActive)
+            {
+                return Ok(service.ChangeUsername(username, newUsername, getUser.Username));
+            }
+            else
+            {
+                if (user.Value == getUser.Username && getUser.IsActive)
+                {
+                    return Ok(service.ChangeUsername(username, newUsername, newUsername));
+                }
+                return BadRequest("Unable to perform request");
+            }
         }
 
-        // PUT api/<UserController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+
+        [HttpPut]
+        [Route("user/change-password")]
+        public IActionResult ChangePassword(string username, [FromBody]string newPassword)
         {
+            if (string.IsNullOrWhiteSpace(newPassword))
+            {
+                throw new InvalidOperationException("Password does not have value");
+            }
+
+            var user = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Name);
+
+            var getUser = user != null ? service.GetUserByUsername(user.Value) : throw new Exception("Invalid credientials");
+
+            if (getUser.IsAdmin && getUser.IsActive)
+            {
+                return Ok(service.ChangeUsername(username, newPassword, getUser.Username));
+            }
+            else
+            {
+                if (user.Value == getUser.Username && getUser.IsActive)
+                {
+                    return Ok(service.ChangePassword(username, newPassword, user.Value));
+                }
+                return BadRequest("Unable to perform request");
+            }
         }
 
-        // DELETE api/<UserController>/5
-        
+
+        [HttpGet]
+        [Route("user/credientials")]
+        public IActionResult UserCrediential()
+        {
+            var claimUser = User.Claims.FirstOrDefault(x => x.Type == ClaimTypes.Name);
+
+            if (claimUser == null)
+            {
+                return BadRequest("System can not validate empty user");
+            }
+
+            return Ok(claimUser.Value);
+        }
+
+
+        [HttpGet]
+        [Authorize(Policy ="IsAdmin")]
+        [Route("users/age")]
+        public IActionResult GetUsersByAge(int age)
+        {
+            return Ok(service.GetUsersOfCertainAge(age));
+        }
+
+
+        [HttpPut]
+        [Authorize(Policy ="IsAdmin")]
+        [Route("user/{username}/recovery")]
+        public IActionResult UserRecovery(string username)
+        {
+            return Ok(service.UserRecovery(username));
+        }
     }
 }
