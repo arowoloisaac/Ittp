@@ -1,8 +1,11 @@
+using aton_intern.Models;
 using Aton_intern.Services.Auth;
 using Aton_intern.Services.Initialization;
 using Aton_intern.Services.UserService;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.OpenApi;
 using Microsoft.IdentityModel.Tokens;
+using Microsoft.OpenApi.Models;
 using Scalar.AspNetCore;
 using System.Text;
 
@@ -14,7 +17,13 @@ builder.AddServiceDefaults();
 
 builder.Services.AddControllers();
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+//builder.Services.AddOpenApi();
+
+//reference here - https://stackoverflow.com/questions/79265776/how-to-add-jwt-token-support-globally-in-scalar-for-a-net-9-application
+builder.Services.AddOpenApi("v1", options => { options.AddDocumentTransformer<BearerSecuritySchemeTransformer>(); });
+
+//adding swaggerUI to the application
+builder.Services.AddSwaggerGen();
 
 //builder.Services.AddScoped<ITokenService, TokenService>(); 
 builder.Services.AddSingleton<IUserService, UserService>();
@@ -41,7 +50,13 @@ builder.Services.AddAuthentication(options =>
     };
 });
 
-builder.Services.AddAuthorization();
+builder.Services.AddAuthorization( options  =>
+{
+    options.AddPolicy("IsAdmin", policy =>
+    {
+        policy.RequireClaim("Admin", "True");
+    });
+});
 
 var app = builder.Build();
 
@@ -52,6 +67,9 @@ if (app.Environment.IsDevelopment())
 {
     app.MapOpenApi();
     app.MapScalarApiReference();
+
+    app.UseSwagger();
+    app.UseSwaggerUI();
 
     //app.MapScalarApiReference(options =>
     //{
@@ -70,4 +88,6 @@ await app.ConfigureAdminAsync();
 
 app.Run();
 
-//this project uses scalar for it UI, you need to add scalar/v1
+/***
+ *this project uses both scalar and swagger for it UI
+ *to add both UI to the application, you need to copy the localhost route and add the respective name (scalar and swagger)***/

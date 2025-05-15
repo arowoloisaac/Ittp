@@ -1,10 +1,13 @@
-﻿using Aton_intern.Services.UserService;
+﻿using aton_intern.DTOs;
+using Aton_intern.Services.UserService;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Aton_intern.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private readonly IUserService service;
@@ -15,12 +18,46 @@ namespace Aton_intern.Controllers
         }
 
 
+        [HttpPost]
+        [Route("user/create")]
+        [Authorize(Policy ="IsAdmin")]
+        public IActionResult CreateUser(CreateUserDto dto)
+        {
+            return Ok(service.CreateUser(dto));
+        }
 
-        // GET: api/<UserController>
+        
         [HttpGet]
         public IActionResult Get()
         {
             return Ok(service.GetAllUsers());   
+        }
+
+        
+        [HttpGet]
+        [Authorize(Policy = "IsAdmin")]
+        [Route("users/active")]
+        public IActionResult GetActiveUsers()
+        {
+            return Ok(service.GetAllActiveUsers());
+        }
+
+
+        [HttpPut]
+        [Authorize(Policy ="IsAdmin")]
+        [Route("user/{username}/soft-delete")]
+        public IActionResult SoftDeleteUser(string username)
+        {
+            return Ok(service.SoftDelete(username));
+        }
+
+
+        [HttpDelete]
+        [Authorize(Policy ="IsAdmin")]
+        [Route("user/{username}/hard-delete")]
+        public IActionResult HardDeleteUser(string username)
+        {
+            return Ok(service.HardDelete(username));
         }
 
         // GET api/<UserController>/5
@@ -43,9 +80,6 @@ namespace Aton_intern.Controllers
         }
 
         // DELETE api/<UserController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        
     }
 }

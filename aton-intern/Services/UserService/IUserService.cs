@@ -6,7 +6,9 @@ namespace Aton_intern.Services.UserService
 {
     public interface IUserService
     {
-        string CreateUser(User user);
+        string CreateUser(CreateUserDto user);
+
+        //string CreateUser2(CreateUserDto userDto);
 
         bool IsUserExists(string username);
 

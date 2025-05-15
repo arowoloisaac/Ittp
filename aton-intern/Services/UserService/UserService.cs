@@ -12,7 +12,7 @@ namespace Aton_intern.Services.UserService
         private readonly object _lock = new object();
 
         //create/add a user to the list
-        public string CreateUser(User user)
+        public string CreateUser(CreateUserDto user)
         {
             lock (_lock)
             {
@@ -20,14 +20,23 @@ namespace Aton_intern.Services.UserService
 
                 if (IsUserExists(user.Username))
                 {
-                    throw new InvalidOperationException("Login already exists.");
+                    throw new InvalidOperationException("Username already exists.");
                 }
 
-                user.Id = Guid.NewGuid();
-                user.CreatedOn = DateTime.UtcNow;
-                user.CreatedBy = "";
+                var createUser = new User
+                {
+                    Id = Guid.NewGuid(),
+                    Username = user.Username,
+                    Name = user.Name,
+                    Password = user.Password,
+                    Gender = user.Gender,
+                    CreatedBy = "",
+                    CreatedOn = DateTime.UtcNow,
+                    BirthDate = user.BirthDate,
+                    IsAdmin = user.IsAdmin,
+                };
 
-                _users.Add(user);
+                _users.Add(createUser);
 
                 return "user created";
             }
@@ -118,6 +127,7 @@ namespace Aton_intern.Services.UserService
             throw new NotImplementedException();
         }
 
+        //account recovery
         public string UserRecovery(string username)
         {
             var userToRetrieve = _users.SingleOrDefault(u => u.Username == username && u.RevokedOn != null);

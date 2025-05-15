@@ -1,4 +1,5 @@
-﻿using Aton_intern.Enums;
+﻿using aton_intern.DTOs;
+using Aton_intern.Enums;
 using Aton_intern.Models;
 using Aton_intern.Services.UserService;
 
@@ -18,14 +19,15 @@ namespace Aton_intern.Services.Initialization
 
             //var checkAdminExistence = userConfig.IsUserExists(getAdminCredientials["Username"]);
 
-            userConfig.CreateUser(new User
+            userConfig.CreateUser(new CreateUserDto
             {
                 Username = getAdminCredientials["Username"],
-                CreatedBy = getAdminCredientials["CreatedBy"],
+                //CreatedBy = getAdminCredientials["CreatedBy"],
                 Password = getAdminCredientials["Password"],
                 Gender = Gender.Unknown,
                 IsAdmin = true,
                 Name = getAdminCredientials["Name"],
+                BirthDate = DateTime.UtcNow.AddYears(-20)
             });
 
             /*if (!checkAdminExistence)

@@ -1,5 +1,21 @@
 [
   {
+    "ContainingType": "aton_intern.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "aton_intern.DTOs.LoginCredientials",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Aton_intern.Controllers.UserController",
     "Method": "Get",
     "RelativePath": "api/User",
@@ -86,24 +102,60 @@
   },
   {
     "ContainingType": "Aton_intern.Controllers.UserController",
-    "Method": "Delete",
-    "RelativePath": "api/User/{id}",
+    "Method": "HardDeleteUser",
+    "RelativePath": "api/User/user/{username}/hard-delete",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "id",
-        "Type": "System.Int32",
+        "Name": "username",
+        "Type": "System.String",
         "IsRequired": true
       }
     ],
-    "ReturnTypes": [
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aton_intern.Controllers.UserController",
+    "Method": "SoftDeleteUser",
+    "RelativePath": "api/User/user/{username}/soft-delete",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
       {
-        "Type": "System.Void",
-        "MediaTypes": [],
-        "StatusCode": 200
+        "Name": "username",
+        "Type": "System.String",
+        "IsRequired": true
       }
-    ]
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aton_intern.Controllers.UserController",
+    "Method": "CreateUser",
+    "RelativePath": "api/User/user/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "aton_intern.DTOs.CreateUserDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Aton_intern.Controllers.UserController",
+    "Method": "GetActiveUsers",
+    "RelativePath": "api/User/users/active",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
   }
 ]
